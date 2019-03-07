@@ -1,0 +1,83 @@
+ /***   MAIN   ***/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    letter-spacing: 3px;
+    font-family: 'Cinzel', serif;
+}
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -25px;
+}
+.footer,
+.push {
+    height: 50px;
+}
+
+
+/***   HEADER   ***/
+.jumbotron {
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    height: 150px;
+    padding: 25px;
+    margin-bottom: 60px;
+}
+#h1Header {
+    padding-top: 12px;
+}
+.timerDiv{
+    color: white;
+}
+
+/***   GAME SECTION   ***/
+.gameBG {
+    background: rgba(0, 0, 0, 0.842);
+    border: solid 1px rgba(255, 255, 255, 0.644);
+    color: white;
+    margin-top: 100px;
+}
+.gameBox{
+    padding: 50px;
+}
+.btn {
+    color: white;
+    padding-bottom: 50px; 
+}
+.btn:hover {
+    color: rgb(196, 178, 178);
+}
+.btn:focus {
+    color: rgb(196, 178, 178);
+    border-color: rgba(255, 255, 255, 0.644);
+}
+#questions {
+    color: white;
+    padding: 30px;
+}
+#options {
+    color: white;
+}
+.optionsBtn {
+    color: white;
+    background: none;
+    padding: 10px;
+    margin: 15px;
+}
+
+
+/***   FOOTER   ***/
+.footerDev {
+    margin-bottom: -15px;
+    font-size: 12px;
+}
+.footer {
+    color: white;
+}
+.footerBox {
+    padding: 15PX;
+    background: rgba(0, 0, 0, 0.26);
+    margin-top: 50px;
+}
